@@ -60,6 +60,7 @@ if __name__ == '__main__':
     search_list_by_keyword(service,
                            part='snippet',
                            maxResults=50,
+                           order='viewCount',
                            pageToken=token,
                            publishedAfter='2018-01-01T00:00:00Z',
                            publishedBefore='2018-12-31T23:59:59Z',
